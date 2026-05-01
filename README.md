@@ -1,2 +1,18 @@
 # Joc_Iron
 Veiem alguns temes complementaris de CSS:      text-align: center; Centra també les imatges a l'amplada de pantalla. S'aplica al div contenidor.      DISPLAY: elements block i inline: https://www.w3schools.com/css/css_display_visibility.asp  És possible passar un element inline a block ia l'inrevés: display: block; display: inline;      Es pot canviar una imatge de fons amb una altra en passar el ratolí canviant l'adreça de la URL al      Amb la propietat transform es poden assignar modificacions a l'element (escalar, rotar, ampliar, moure, etc), totes alhora, separades per espai. Exemple:  transform: rotate(30deg) translate(30px, 30px) scale(200%) skewX(50deg);
+
+
+# Task
+## Instructions
+
+Tenim 9 imatges de bomba, ben separades entre si (la imatge pot ser la mateixa).
+
+Són separades perquè no trepitgis una sense voler.
+
+De les bombes, 8 de 9, en passar per sobre, exploten (imatge explosió).
+
+Un d'ells conté aigua o un extintor, etc. La resta exploten.
+
+Això es pot fer amb background-image, canviant la URL de la imatge a.
+
+*EXTRA:* Es pot provar que apareguin o desapareguin coses amb opacity, display i visibility.

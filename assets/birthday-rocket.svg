@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Coet artificial d'aniversari">
+  <rect width="160" height="160" rx="12" fill="#1896d5"/>
+  <circle cx="34" cy="34" r="8" fill="#ffffff"/>
+  <circle cx="126" cy="38" r="6" fill="#d4e1e1"/>
+  <circle cx="28" cy="118" r="5" fill="#ffffff"/>
+  <path d="M80 16c17 15 27 35 27 58v35H53V74c0-23 10-43 27-58z" fill="#ffffff"/>
+  <path d="M80 16c17 15 27 35 27 58H80z" fill="#d4e1e1"/>
+  <circle cx="80" cy="62" r="14" fill="#1896d5"/>
+  <circle cx="80" cy="62" r="7" fill="#ffffff"/>
+  <path d="M53 96 33 124l20-7zM107 96l20 28-20-7z" fill="#066494"/>
+  <path d="M64 109h32l-16 35z" fill="#d21414"/>
+  <path d="M67 128h26l-13 21z" fill="#ffffff"/>
+  <path d="M62 32h36" stroke="#d21414" stroke-width="8" stroke-linecap="round"/>
+  <path d="M60 82h40" stroke="#066494" stroke-width="8" stroke-linecap="round"/>
+</svg>

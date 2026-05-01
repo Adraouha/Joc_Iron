@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Foc artificial">
+  <rect width="160" height="160" rx="16" fill="#16232f"/>
+  <path d="M80 74V25M80 86v49M74 80H25M86 80h49M61 61 27 27M99 99l34 34M99 61l34-34M61 99l-34 34" stroke="#ffd166" stroke-width="7" stroke-linecap="round"/>
+  <path d="M80 49 90 68 111 71 96 86 99 108 80 98 61 108 64 86 49 71 70 68z" fill="#ef476f"/>
+  <circle cx="80" cy="80" r="12" fill="#f8f7f2"/>
+  <circle cx="42" cy="48" r="5" fill="#06d6a0"/>
+  <circle cx="121" cy="45" r="5" fill="#118ab2"/>
+  <circle cx="116" cy="119" r="5" fill="#06d6a0"/>
+  <circle cx="43" cy="117" r="5" fill="#118ab2"/>
+</svg>

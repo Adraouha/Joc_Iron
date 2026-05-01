@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Explosio animada">
+  <rect width="160" height="160" rx="12" fill="#1896d5"/>
+  <g transform-origin="80 80">
+    <animateTransform attributeName="transform" type="scale" values=".88;1.08;.92;1" dur=".55s" repeatCount="indefinite"/>
+    <path d="M80 9 94 54 133 29 108 68 153 80 108 92 133 131 94 106 80 151 66 106 27 131 52 92 7 80 52 68 27 29 66 54z" fill="#d21414"/>
+    <path d="M80 28 91 62 122 49 104 79 133 95 99 99 103 134 80 112 57 134 61 99 27 95 56 79 38 49 69 62z" fill="#ffffff">
+      <animate attributeName="opacity" values=".55;1;.55" dur=".35s" repeatCount="indefinite"/>
+    </path>
+    <path d="M80 47 88 71 112 69 94 85 102 108 80 96 58 108 66 85 48 69 72 71z" fill="#066494"/>
+  </g>
+  <text x="80" y="88" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#010101">BOOM</text>
+</svg>

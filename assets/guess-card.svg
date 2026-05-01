@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Imatge per descobrir">
+  <rect width="160" height="160" rx="12" fill="#1896d5"/>
+  <rect x="18" y="18" width="124" height="124" rx="10" fill="#ffffff"/>
+  <rect x="28" y="28" width="104" height="104" rx="8" fill="#d4e1e1"/>
+  <path d="M39 106 64 78l18 19 18-23 27 32z" fill="#066494"/>
+  <circle cx="110" cy="50" r="12" fill="#1896d5"/>
+  <path d="M80 52c13 0 22 8 22 19 0 18-18 17-18 32h-13c0-23 17-21 17-32 0-5-4-8-10-8-7 0-12 4-16 10l-10-8c6-9 15-13 28-13z" fill="#010101"/>
+  <circle cx="78" cy="119" r="7" fill="#010101"/>
+</svg>

@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #010101;
+  background: #0f7bb0;
+}
+
+.game {
+  width: min(866px, 94vw);
+  margin: 0 auto;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.game-header {
+  margin-bottom: 50px;
+}
+
+.game-header h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 6vw, 4rem);
+  color: #ffffff;
+
+}
+
+.game-header p {
+  max-width: 620px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.status {
+  min-height: 52px;
+  margin: 0 auto 26px;
+  padding: 14px 18px;
+  border: 2px solid #1896d5;
+  border-radius: 8px;
+  background: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1896d5;
+  transition: border-color 180ms ease;
+}
+
+.bomb-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(50px, 1fr));
+  gap: 15px;
+  align-items: center;
+  justify-items: center;
+}
+
+.bomb {
+  display: block;
+  width: clamp(80px, 18vw, 200px);
+  aspect-ratio: 1;
+  border: 2px solid #1f6f8b;
+  border-radius: 8px;
+  background-image: url("assets/birthday-rocket.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  position: relative;
+  transition: transform 180ms ease, filter 180ms ease, opacity 180ms ease;
+}
+
+.bomb span {
+  display: block;
+  width: max-content;
+  max-width: 150px;
+  margin: 50% auto 0;
+  padding: 7px 10px;
+  border-radius: 6px;
+  color: rgb(210, 153, 20);
+  background: #f8f8f8;
+  font-weight: 700;
+  opacity: 0;
+
+  visibility: hidden;
+  transition: opacity 180ms ease, visibility 180ms ease;
+}
+
+.bomb:hover {
+  transform: scale(1.10) rotate(4deg);
+  filter: drop-shadow(0 12px 14px rgba(29, 37, 44, 0.22));
+  border-color: #ffffffff;
+  box-shadow: 0 0 10px #ffffffff;
+}
+
+.bomb.exploded {
+  background-image: url("assets/wrong-explosion.svg");
+}
+
+.bomb.found {
+  background-image: url("assets/extinguisher-success.svg");
+  transform: scale(1.18) rotate(-2deg);
+}
+
+.bomb.exploded span,
+.bomb.found span {
+  opacity: 1;
+  visibility: visible;
+}
+
+.bomb.found span {
+  background: #0b7f5f;
+}
+
+.bomb:disabled {
+  cursor: default;
+}
+
+.bomb.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.restart {
+  display: none;
+  margin: 34px auto 0;
+  padding: 12px 18px;
+  border: 2px solid #010709;
+  border-radius: 8px;
+  color: rgb(9, 2, 2);
+  background: #dcc204;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.restart:hover {
+  transform: scale(1.10) rotate(4deg);
+  filter: drop-shadow(0 12px 14px rgba(29, 37, 44, 0.22));
+  border-color: #ffffffff;
+  box-shadow: 0 0 10px #ffffffff;
+}
+
+.restart.visible {
+  display: inline-block;
+}
+
+@media (max-width: 560px) {
+  .bomb-grid {
+    grid-template-columns: repeat(2, minmax(104px, 1fr));
+  }
+}

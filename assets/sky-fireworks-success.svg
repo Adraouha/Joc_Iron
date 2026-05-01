@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Celebracio al cel">
+  <rect width="160" height="160" rx="12" fill="#066494"/>
+  <path d="M0 116c20-13 36-13 56 0s38 13 58 0 30-13 46-2v46H0z" fill="#1896d5"/>
+  <g transform-origin="55 55">
+    <animateTransform attributeName="transform" type="rotate" from="0 55 55" to="360 55 55" dur="1.8s" repeatCount="indefinite"/>
+    <path d="M55 20v70M20 55h70M30 30l50 50M80 30 30 80" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="55" cy="55" r="10" fill="#d4e1e1">
+      <animate attributeName="r" values="7;13;7" dur=".7s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g transform-origin="110 76">
+    <animateTransform attributeName="transform" type="rotate" from="360 110 76" to="0 110 76" dur="1.4s" repeatCount="indefinite"/>
+    <path d="M110 42v68M76 76h68M86 52l48 48M134 52 86 100" stroke="#d21414" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="110" cy="76" r="9" fill="#ffffff">
+      <animate attributeName="r" values="5;12;5" dur=".55s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <path d="M68 123h24v10H68z" fill="#ffffff"/>
+  <path d="M73 92h14l6 31H67z" fill="#d21414"/>
+  <path d="M72 85h16v10H72z" fill="#010101"/>
+</svg>

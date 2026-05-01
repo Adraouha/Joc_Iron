@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joc de Bombes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="game">
+    <header class="game-header">
+      <h1>Troba l'extintor</h1>
+      <p>Fes clic a un coet d'aniversari per descobrir si amaga l'extintor. Després de cada intent, les posicions canvien.</p>
+    </header>
+
+    <p class="status" id="status" role="status" aria-live="polite">Tens 3 intents.</p>
+
+    <section class="bomb-grid" id="bombGrid" aria-label="Taulell d'imatges">
+      <button class="bomb" type="button" aria-label="Imatge 1"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 2"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 3"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 4"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 5"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 6"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 7"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 8"><span></span></button>
+      <button class="bomb" type="button" aria-label="Imatge 9"><span></span></button>
+    </section>
+
+    <button class="restart" id="restartButton" type="button">Juga de nou</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

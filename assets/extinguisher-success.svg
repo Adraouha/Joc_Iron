@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Extintor">
+  <rect width="160" height="160" rx="12" fill="#1896d5"/>
+  <circle cx="80" cy="82" r="62" fill="#ffffff"/>
+  <path d="M96 39h17c13 0 22 9 22 22v13" fill="none" stroke="#010101" stroke-width="8" stroke-linecap="round"/>
+  <path d="M73 26h23v18H73z" fill="#010101"/>
+  <path d="M67 42h35v18H67z" fill="#d21414"/>
+  <rect x="55" y="55" width="59" height="86" rx="14" fill="#d21414"/>
+  <rect x="66" y="84" width="37" height="27" rx="5" fill="#ffffff"/>
+  <path d="M74 96h22" stroke="#010101" stroke-width="5" stroke-linecap="round"/>
+  <path d="M72 35h31" stroke="#010101" stroke-width="8" stroke-linecap="round"/>
+  <path d="M48 70c-15 7-23 18-25 34" fill="none" stroke="#066494" stroke-width="8" stroke-linecap="round"/>
+  <path d="M23 104c13-9 25-9 38-1" fill="none" stroke="#066494" stroke-width="8" stroke-linecap="round"/>
+  <path d="M124 28v22M113 39h22" stroke="#ffffff" stroke-width="5" stroke-linecap="round">
+    <animate attributeName="opacity" values=".35;1;.35" dur=".8s" repeatCount="indefinite"/>
+  </path>
+</svg>
