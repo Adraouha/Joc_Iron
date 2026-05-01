@@ -1,18 +1,44 @@
 # Joc_Iron
-Veiem alguns temes complementaris de CSS:      text-align: center; Centra també les imatges a l'amplada de pantalla. S'aplica al div contenidor.      DISPLAY: elements block i inline: https://www.w3schools.com/css/css_display_visibility.asp  És possible passar un element inline a block ia l'inrevés: display: block; display: inline;      Es pot canviar una imatge de fons amb una altra en passar el ratolí canviant l'adreça de la URL al      Amb la propietat transform es poden assignar modificacions a l'element (escalar, rotar, ampliar, moure, etc), totes alhora, separades per espai. Exemple:  transform: rotate(30deg) translate(30px, 30px) scale(200%) skewX(50deg);
 
+Joc web interactiu creat amb HTML, CSS i JavaScript. L'objectiu és trobar l'extintor amagat entre diversos coets d'aniversari.
 
-# Task
-## Instructions
+## Com es juga
 
-Tenim 9 imatges de bomba, ben separades entre si (la imatge pot ser la mateixa).
+En obrir la pàgina apareixen 9 imatges de coets. L'usuari ha de fer clic en una imatge per intentar trobar l'extintor ocult.
 
-Són separades perquè no trepitgis una sense voler.
+Si l'elecció és incorrecta, el coet mostra una imatge animada d'explosió, sona una explosió i apareix un missatge en català indicant quants intents queden. Després de cada error, les imatges canvien de posició perquè l'usuari hagi de tornar a endevinar.
 
-De les bombes, 8 de 9, en passar per sobre, exploten (imatge explosió).
+Si l'elecció és correcta, apareix una imatge de focs artificials, sonen aplaudiments i el joc mostra el missatge de victòria: `Salvat! Enhorabona, estàs fora de perill!`
 
-Un d'ells conté aigua o un extintor, etc. La resta exploten.
+Quan acaba la partida, apareix el botó `Juga de nou` per començar una altra vegada.
 
-Això es pot fer amb background-image, canviant la URL de la imatge a.
+## Regles del joc
 
-*EXTRA:* Es pot provar que apareguin o desapareguin coses amb opacity, display i visibility.
+- Hi ha 9 imatges en total.
+- Només una posició és la correcta.
+- L'usuari té 9 intents.
+- Les posicions canvien després de cada intent fallit.
+- Una elecció incorrecta mostra `BOOM!`.
+- Una elecció correcta mostra `Enhorabona!`.
+
+## Arxius principals
+
+- `index.html`: estructura de la pàgina i botons del tauler.
+- `styles.css`: estils visuals, colors, distribució de les imatges i canvi d'imatge segons el resultat.
+- `script.js`: lògica del joc, intents, barreja de posicions, missatges i sons.
+- `assets/birthday-rocket.svg`: imatge inicial del coet.
+- `assets/wrong-explosion.svg`: imatge animada per als errors.
+- `assets/sky-fireworks-success.svg`: imatge animada per a la victòria.
+
+## Com obrir-lo
+
+No cal instal·lar dependències ni engegar un servidor. Només cal obrir l'arxiu `index.html` en un navegador.
+
+## Conceptes practicats
+
+- Ús de `display: grid` per separar les imatges.
+- Canvi d'imatge amb `background-image`.
+- Animacions i efectes visuals amb SVG i CSS.
+- Ús de `transform`, `opacity` i `visibility`.
+- Esdeveniments de clic amb JavaScript.
+- Sons generats des de JavaScript amb Web Audio.
